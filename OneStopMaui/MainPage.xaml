@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:OneStopMaui"
+       x:Class="OneStopMaui.MainPage">
+
+    <TabBar>
+        <ShellContent Title="Notes" ContentTemplate="{DataTemplate local:NotesPage}" />
+        <ShellContent Title="Reminders" ContentTemplate="{DataTemplate local:RemindersPage}" />
+        <ShellContent Title="Calendar" ContentTemplate="{DataTemplate local:CalendarsPage}" />
+    </TabBar>
+</Shell>
